@@ -53,30 +53,30 @@ body {
 }
 /* UFO Sightings */
 .navbar-brand {
-  color:#66ff99;
+  color:#33cccc;
 }
 
 /* Button */
 #filter-btn {
-  color: #66ff99;
-  border-color: #66ff99;
+  color: #33cccc;
+  border-color: #33cccc;
 }
 /* Filter Search */
 .panel-heading {
-  color: #66ff99;
+  color: #33cccc;
 }
 /*Enter a date*/
 label {
-  color: #66ff99;
+  color: #33cccc;
 }
 /*Enter date box*/
 .filter, list-group-item {
-  border-color: #66ff99;
+  border-color: #33cccc;
 }
 
 /* table head */
 .table-head {
-  color: #66ff99;
+  color: #33cccc;
 }
 /* Adding styles to the aside and filter form */
 .ufo-form {
