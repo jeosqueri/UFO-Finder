@@ -49,9 +49,35 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: #99ffeb;
+}
+/* UFO Sightings */
+.navbar-brand {
+  color:#66ff99;
 }
 
+/* Button */
+#filter-btn {
+  color: #66ff99;
+  border-color: #66ff99;
+}
+/* Filter Search */
+.panel-heading {
+  color: #66ff99;
+}
+/*Enter a date*/
+label {
+  color: #66ff99;
+}
+/*Enter date box*/
+.filter, list-group-item {
+  border-color: #66ff99;
+}
+
+/* table head */
+.table-head {
+  color: #66ff99;
+}
 /* Adding styles to the aside and filter form */
 .ufo-form {
   margin-top: 50px;
@@ -115,6 +141,7 @@ select {
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
+  font-style: italic;
 }
 
 /* input placeholder color changes */
