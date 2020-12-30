@@ -20,7 +20,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">UFO Sightings
-            <img class="nav-ufo" src="static/images/ufo.svg">
+            <img class="nav-ufo" src="images/alien.svg">
           </a>
         </div>
       </div>
@@ -36,12 +36,34 @@
             <div class="panel panel-default">
               <div class="panel-heading">Filter Search</div>
               <div class="panel-body">
+                <!-- <form> -->
+                  <!-- <div class="input-group">
+                      <div class="input-group-prepend">
+                          <select type="button" class="form-control btn btn-success" data-toggle="dropdown">
+                                <option href="#" class="dropdown-item">Date</option>
+                                <option href="#" class="dropdown-item">City</option>
+                                <option href="#" class="dropdown-item">State</option>
+                                <option href="#" class="dropdown-item">Country</option>
+                                <option href="#" class="dropdown-item">Shape</option>
+                          </select>
+                      </div>
+                            <input type="text" id="input" class="form-control" placeholder="enter here">
+                  </div>
+                </form> -->
                 <form id="form">
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" id="city" type="text" placeholder="benton">
+                        <label for="state">Enter a State</label>
+                        <input class="form-control" id="state" type="text" placeholder="ar">
+                        <label for="country">Enter a Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="us">
+                        <label for="shape">Enter a Shape</label>
+                        <input class="form-control" id="shape" type="text" placeholder="circle">
                       </li>
                     </ul>
                   </div>
@@ -76,8 +98,8 @@
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
+  <script src="js/data2.js"></script>
+  <script src="js/app2.js"></script>
 </body>
 
 </html>
