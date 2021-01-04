@@ -24,14 +24,22 @@ Homepage
 
 ![ufo2hp](https://user-images.githubusercontent.com/69160361/103586850-34f46600-4ea3-11eb-98e3-629f2f41973b.png)
 
-State: Filtered search for sightings in CA
+**Date:** Filtered search for sightings on 1/7/2010
 
-![ufo2ca](https://user-images.githubusercontent.com/69160361/103586854-39208380-4ea3-11eb-9c91-ccb5bf382e71.png)
+![Screen Shot 2021-01-04 at 3 44 01 PM](https://user-images.githubusercontent.com/69160361/103587137-d085d680-4ea3-11eb-83bc-0ca8bf338f68.png)
 
-City: Filtered search for sightings in El Cajon
+**City:** Filtered search for sightings in El Cajon
 
 ![ufo2city](https://user-images.githubusercontent.com/69160361/103586860-3c1b7400-4ea3-11eb-95c0-fadc02d4d962.png)
 
-Shape: Filtered search for sightings of Triangle Shaped UFOs
+**State:** Filtered search for sightings in CA
+
+![ufo2ca](https://user-images.githubusercontent.com/69160361/103586854-39208380-4ea3-11eb-9c91-ccb5bf382e71.png)
+
+**Country:** Filtered search for sightings in US
+
+![Screen Shot 2021-01-04 at 3 44 18 PM](https://user-images.githubusercontent.com/69160361/103587187-e8f5f100-4ea3-11eb-9589-105450e0eafd.png)
+
+**Shape:** Filtered search for sightings of Triangle Shaped UFOs
 
 ![ufo2shape](https://user-images.githubusercontent.com/69160361/103586868-3e7dce00-4ea3-11eb-88e4-f72669e548f0.png)
