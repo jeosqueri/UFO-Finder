@@ -1,9 +1,9 @@
-// from data.js
+// get table data from data.js and assign to variable
 var tableData = data;
-// get reference to table body
+// get reference to table body and assign to variable
 var tbody = d3.select("tbody");
 
-// code to append table of ufo data to webpage & adds new rows of data for each ufo sighting
+// append table of ufo data to webpage & add a new row of data for each ufo sighting
 tableData.forEach((ufoInfo) => {
     var row = tbody.append("tr");
     Object.entries(ufoInfo).forEach(([key, value]) => {
@@ -12,18 +12,12 @@ tableData.forEach((ufoInfo) => {
     });
 });
 
-// Use a date form in your HTML document and write JavaScript code 
-// that will listen for events and search through the `date/time` column to find rows that match user input.
-// Select the button
+// Select the button and assign to variable
 var button = d3.select("#filter-btn");
-// Select the form
+// Select the form and assign to variable
 var form = d3.select("#form");
 
-//Create event handlers
-//button.on("click", runEnter);
-//form.on("submit", runEnter);
-
-// Complete the event handler function to return the form
+// Complete the event handler function for filter button to filter the data & return values that match the input
 button.on("click", function() {
     // Clear the table body
     tbody.html("");

@@ -1,9 +1,9 @@
-// from data.js
+// get data from data.js and assign to variable
 var tableData = data;
-// get reference to table body
+// get reference to table body and assign to variable
 var tbody = d3.select("tbody");
 
-// append table of ufo data to webpage & add new rows of data for each ufo sighting
+// append table of ufo data to webpage & add a new row of data for each ufo sighting
 tableData.forEach((ufoInfo) => {
     var row = tbody.append("tr");
     Object.entries(ufoInfo).forEach(([key, value]) => {
@@ -12,7 +12,7 @@ tableData.forEach((ufoInfo) => {
     });
 });
 
-//Add Data function To call below
+//Create 'AddData' function to call below when filtering for data that matches user input
 var addData = (inputData) => {
     inputData.forEach((ufoInfo) => {
         var row = tbody.append("tr");
@@ -23,18 +23,18 @@ var addData = (inputData) => {
     });
 };
 
-// Select the button
+// Select the button and assign to variable
 var button = d3.select("#filter-btn");
-// Select the form
+// Select the form and assign to variable
 var form = d3.select("#form");
 
-// Complete the event handler function to return the form
+// Complete the event handler function for filter button to return values that match user input
 button.on("click", function() {
     // Clear the table body
     tbody.html("");
     //Prevent page from refreshing
     d3.event.preventDefault();
-    //Select elements needed
+    //Select elements needed and assign variables for elements and element values
     var inputFieldDate = d3.select("#datetime");
     var inputDate = inputFieldDate.property("value");
     
@@ -66,10 +66,11 @@ button.on("click", function() {
                                          input.state === inputState &&
                                          input.country === inputCountry &&
                                          input.shape === inputShape);
-    
+    // Use 'let' to set response equal to all filtered data variables
     let response = {filteredDate, filteredCity, filteredState, filteredCountry,
         filteredShape, filteredAll}
-
+    // Use if and else if statements to create logic for filtering data based on user input
+    // call addData function for grabbing data that matches user input
     if(response.filteredAll.length !== 0){
         addData(filteredAll);
     }
@@ -92,7 +93,7 @@ button.on("click", function() {
     else if(response.filteredAll.length === 0 && (response.filteredShape.length !== 0)) {
         addData(filteredShape);
     }
-
+    // Display message to alert user that no values match their input
     else{
         tbody.append("tr").text("No UFO Sightings found that match this criteria")
     }
