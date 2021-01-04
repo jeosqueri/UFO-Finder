@@ -74,6 +74,7 @@ button.on("click", function() {
     if(response.filteredAll.length !== 0){
         addData(filteredAll);
     }
+
     else if(response.filteredAll.length === 0 && (response.filteredDate.length !== 0)) {
         addData(filteredDate);
     }
@@ -97,5 +98,4 @@ button.on("click", function() {
     else{
         tbody.append("tr").text("No UFO Sightings found that match this criteria")
     }
-
 });
