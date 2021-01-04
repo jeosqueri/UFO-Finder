@@ -9,7 +9,12 @@ The second part of this assignment (UFO-Level-2) required all of the criteria fr
 ## UFO Level 1
 ### *Filter for Date*
 
+Homepage
 
+![ufo1hp](https://user-images.githubusercontent.com/69160361/103586734-efd03400-4ea2-11eb-909d-36a9ae428631.png)
+
+Search for sightings on 1/5/2010
+![ufo1search](https://user-images.githubusercontent.com/69160361/103586741-f52d7e80-4ea2-11eb-8fb1-20bf5e3a8fb9.png)
 
 ## UFO Level 2
 ### *Filter for Date, City, State, Country, Shape*
